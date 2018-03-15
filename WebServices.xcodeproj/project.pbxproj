@@ -12,6 +12,7 @@
 		87DDA09A205B138100E24747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DDA098205B138100E24747 /* Main.storyboard */; };
 		87DDA09C205B138100E24747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDA09B205B138100E24747 /* Assets.xcassets */; };
 		87DDA09F205B138100E24747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DDA09D205B138100E24747 /* LaunchScreen.storyboard */; };
+		87DDA0A7205B13AD00E24747 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDA0A6205B13AD00E24747 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		87DDA09B205B138100E24747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DDA09E205B138100E24747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DDA0A0205B138100E24747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DDA0A6205B13AD00E24747 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		87DDA088205B138100E24747 = {
 			isa = PBXGroup;
 			children = (
+				87DDA0A6205B13AD00E24747 /* WebService.swift */,
 				87DDA093205B138100E24747 /* WebServices */,
 				87DDA092205B138100E24747 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DDA0A7205B13AD00E24747 /* WebService.swift in Sources */,
 				87DDA097205B138100E24747 /* ViewController.swift in Sources */,
 				87DDA095205B138100E24747 /* AppDelegate.swift in Sources */,
 			);
